@@ -42,7 +42,8 @@ header {
 }
 
 main {
-
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
 p {
@@ -55,17 +56,28 @@ p {
 }
 
 #automotive, #maritime, #medical, #physics, #myths {
-
+	display: grid;
+	grid-template-columns: 2fr;
+	background: red;
 }
 
 #footer-container {
-	
+	display: grid;
+	grid-template-rows: auto;
+	align-self: stretch;
+	background: yellow;
+	text-align: center;
 }
 
 #header-container {
-
+	display: grid;
+	grid-template-columns: ;
+	grid-template-rows: auto;
+	align-self: stretch;
 }
 
 #main-container {
-
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 25% 100px auto;
 }
