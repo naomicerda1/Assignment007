@@ -44,6 +44,10 @@ header {
 main {
 	display: grid;
 	grid-template-columns: 1fr;
+	margin: 2em;
+	padding: 2em;
+	color: white;
+	background: black;
 }
 
 p {
@@ -58,6 +62,7 @@ p {
 #automotive, #maritime, #medical, #physics, #myths {
 	display: grid;
 	grid-template-columns: 2fr;
+	margin: 2em;
 	background: red;
 }
 
@@ -74,6 +79,7 @@ p {
 	grid-template-columns: ;
 	grid-template-rows: auto;
 	align-self: stretch;
+	background: yellow;
 }
 
 #main-container {
