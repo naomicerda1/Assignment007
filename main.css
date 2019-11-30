@@ -44,10 +44,6 @@ header {
 main {
 	display: grid;
 	grid-template-columns: 1fr;
-	margin: 2em;
-	padding: 2em;
-	color: white;
-	background: black;
 }
 
 p {
@@ -57,13 +53,21 @@ p {
 
 #intro {
 	font-size: 22px;
+	border: 20px double black;
+	color: white;
+	background: blue;
+	margin: 2em;
+	padding: 1em;
 }
 
 #automotive, #maritime, #medical, #physics, #myths {
 	display: grid;
 	grid-template-columns: 2fr;
 	margin: 2em;
+	padding: 1em;
 	background: red;
+	border: 10px solid black;
+	color: white;
 }
 
 #footer-container {
@@ -76,7 +80,6 @@ p {
 
 #header-container {
 	display: grid;
-	grid-template-columns: ;
 	grid-template-rows: auto;
 	align-self: stretch;
 	background: yellow;
